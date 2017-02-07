@@ -1,4 +1,3 @@
 #!/bin/sh
 cat bashrc > ~/.bashrc
-source ~/.bashrc
-echo "Done!"
+printf "done!\n Run the following commands to complete the configuration:\ncd ~; source .bashrc"
