@@ -13,6 +13,7 @@ alias sg='sudo grep'
 alias tud='sudo cat /etc/trueuserdomains | grep'
 alias tuo='sudo cat /etc/trueuserowners | grep'
 alias sla='sudo ls -la'
+alias rmkey="ssh-keygen -R"
 
 #for backup server
 alias srestore="sudo /opt/scripts/restore_new/restore.py"
